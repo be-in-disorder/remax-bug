@@ -1,0 +1,7 @@
+const F2 = require('@antv/f2/lib/index');
+// require('@antv/f2/lib/interaction/interval-select');
+
+// const Gesture = require('@antv/f2/lib/plugin/gesture');
+// F2.Chart.plugins.register(Gesture);
+
+console.log(' ========== wxs =========== ', typeof F2 === 'undefined' ? '' : F2.a)

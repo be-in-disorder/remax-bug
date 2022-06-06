@@ -1,0 +1,13 @@
+<view>
+----------
+    <canvas
+        style="height: 600rpx; width: 100%; user-select: none; background: gray"
+        id="energyCanvas"
+        canvas-id="energyCanvas"
+        nearData="{{energyData}}"
+        change:nearData="{{tabs.drawEnergyChart}}"
+    />
+-------------
+</view>
+
+<wxs src="./index.wxs" module="tabs" />

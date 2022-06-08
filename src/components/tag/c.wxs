@@ -1,0 +1,4 @@
+require('./a.wxs')
+// require('./b.wxs')
+
+console.log(99999)
